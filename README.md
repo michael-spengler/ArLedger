@@ -14,8 +14,13 @@ The difference between this approach and just querying tagged transaction is,
 that this approach has an underlying smart-contract which allows querying and accessing the data directly. 
 When using a filter on transactions you can not do any filtering or selecting on the data itself.
 Another feature is that this allows individual deployment and access control.
+
 ## Usage
+1. Download and deploy the ArLedger smart contract
+2. Install the SmartWeave Libary in your app and start interacting with the smart contract
+
 Note: Use this data as the object for an interaction with the SmartWeave-Contract
+
 ### Create a table
 `{"function": "CREATE TABLE", "name": "Users"}`
 ### Insert data into a table
